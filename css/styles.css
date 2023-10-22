@@ -94,7 +94,7 @@ img {
   gap: 40px;
 }
 
-/* Nav and logo */
+/* Nav*/
 .navigation-link {
   color: var(--title-text-color);
 
@@ -105,6 +105,8 @@ img {
 .navigation-link:focus {
   color: #404bbf;
 }
+
+/* logo */
 
 .logo {
   display: flex;
