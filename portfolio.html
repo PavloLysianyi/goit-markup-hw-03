@@ -19,13 +19,13 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="navigation-container container">
         <nav class="navigation">
           <a href="./index.html" class="logo"
             >Web<span class="half-logo">Studio</span></a
           >
-          <ul>
+          <ul class="navigation-list">
             <li>
               <a href="./index.html" class="navigation-link">Studio</a>
             </li>
@@ -36,7 +36,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           </ul>
         </nav>
         <address class="adress">
-          <ul>
+          <ul class="adress-list">
             <li>
               <a href="mailto:info@devstudio.com" class="adress-link"
                 >info@devstudio.com</a
@@ -54,16 +54,26 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
     <main>
       <section class="portfolio">
         <div class="container">
-          <h1>Our Works</h1>
-          <ul>
-            <li><button type="button" class="button">All</button></li>
-            <li><button type="button" class="button">Web Site</button></li>
-            <li><button type="button" class="button">App</button></li>
-            <li><button type="button" class="button">Design</button></li>
-            <li><button type="button" class="button">Marketing</button></li>
+          <h1 class="visually-hidden">Our Works</h1>
+          <ul class="portfolio-list">
+            <li>
+              <button type="button" class="button">All</button>
+            </li>
+            <li>
+              <button type="button" class="button">Web Site</button>
+            </li>
+            <li>
+              <button type="button" class="button">App</button>
+            </li>
+            <li>
+              <button type="button" class="button">Design</button>
+            </li>
+            <li>
+              <button type="button" class="button">Marketing</button>
+            </li>
           </ul>
 
-          <ul>
+          <ul class="portfolio-work">
             <li>
               <a href=""
                 ><img
@@ -71,8 +81,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Banking-App"
                   width="360"
                 />
-                <h2 class="portfolio-title">Banking App Interface Concept</h2>
-                <p class="portfolio-text">App</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Banking App Interface Concept</h2>
+                  <p class="portfolio-text">App</p>
+                </div>
               </a>
             </li>
             <li>
@@ -82,8 +94,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Cashless-Payment"
                   width="360"
                 />
-                <h2 class="portfolio-title">Cashless Payment</h2>
-                <p class="portfolio-text">Marketing</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Cashless Payment</h2>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
               </a>
             </li>
             <li>
@@ -93,8 +107,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Meditation-App"
                   width="360"
                 />
-                <h2 class="portfolio-title">Meditation App</h2>
-                <p class="portfolio-text">App</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Meditation App</h2>
+                  <p class="portfolio-text">App</p>
+                </div>
               </a>
             </li>
             <li>
@@ -104,8 +120,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Taxi-Service"
                   width="360"
                 />
-                <h2 class="portfolio-title">Taxi Service</h2>
-                <p class="portfolio-text">Marketing</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Taxi Service</h2>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
               </a>
             </li>
             <li>
@@ -115,8 +133,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Screen-Illustrations"
                   width="360"
                 />
-                <h2 class="portfolio-title">Screen Illustrations</h2>
-                <p class="portfolio-text">Design</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Screen Illustrations</h2>
+                  <p class="portfolio-text">Design</p>
+                </div>
               </a>
             </li>
             <li>
@@ -126,8 +146,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Online-Courses"
                   width="360"
                 />
-                <h2 class="portfolio-title">Online Courses</h2>
-                <p class="portfolio-text">Marketing</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Online Courses</h2>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
               </a>
             </li>
             <li>
@@ -137,8 +159,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Instagram-Stories"
                   width="360"
                 />
-                <h2 class="portfolio-title">Instagram Stories Concept</h2>
-                <p class="portfolio-text">Design</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Instagram Stories Concept</h2>
+                  <p class="portfolio-text">Design</p>
+                </div>
               </a>
             </li>
             <li>
@@ -148,8 +172,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Organic-Food"
                   width="360"
                 />
-                <h2 class="portfolio-title">Organic Food</h2>
-                <p class="portfolio-text">Web Site</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Organic Food</h2>
+                  <p class="portfolio-text">Web Site</p>
+                </div>
               </a>
             </li>
             <li>
@@ -159,8 +185,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
                   alt="Fresh-Coffee"
                   width="360"
                 />
-                <h2 class="portfolio-title">Fresh Coffee</h2>
-                <p class="portfolio-text">Web Site</p>
+                <div class="portfolio-card">
+                  <h2 class="portfolio-title">Fresh Coffee</h2>
+                  <p class="portfolio-text">Web Site</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -168,7 +196,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="footer-container container">
         <a href="./index.html" class="logo"
           >Web<span class="second-half-logo">Studio</span></a
         >
