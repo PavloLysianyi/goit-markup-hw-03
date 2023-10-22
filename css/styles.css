@@ -75,6 +75,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
 
 .navigation {
@@ -86,10 +87,6 @@ img {
   align-items: center;
   gap: 40px;
   margin-right: 332px;
-}
-
-.navigation-item {
-  padding: 24px 0;
 }
 
 .adress-list {
