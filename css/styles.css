@@ -101,6 +101,7 @@ img {
 .navigation-link {
   color: var(--title-text-color);
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .navigation-link:hover,
