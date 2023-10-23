@@ -80,13 +80,13 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .navigation-list {
   align-items: center;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .adress-list {
